@@ -11,6 +11,7 @@ thin_border = Border(left=Side(style='thin'),
                      right=Side(style='thin'),
                      top=Side(style='thin'),
                      bottom=Side(style='thin'))
+что-то
 currency_to_rub = {
     "AZN": 35.68,
     "BYR": 23.91,
@@ -23,6 +24,7 @@ currency_to_rub = {
     "USD": 60.66,
     "UZS": 0.0055,
 }
+
 class Report:
     def generate_image(self,stat,prof):
         index = stat.salary_by_year.keys()
