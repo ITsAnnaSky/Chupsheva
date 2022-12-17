@@ -11,6 +11,7 @@ thin_border = Border(left=Side(style='thin'),
                      right=Side(style='thin'),
                      top=Side(style='thin'),
                      bottom=Side(style='thin'))
+#comment
 currency_to_rub = {
     "AZN": 35.68,
     "BYR": 23.91,
